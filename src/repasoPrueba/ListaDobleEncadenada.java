@@ -218,7 +218,7 @@ public class ListaDobleEncadenada {
 		if(tamanio==0)
 			return lista;
 		
-		lista="null ->";
+		lista="cabeza -> ";
 		
 		while(aux!=cola){
 			
@@ -228,7 +228,7 @@ public class ListaDobleEncadenada {
 			
 		}
 		
-		lista+="null";
+		lista+=" cola";
 		
 		return lista;
 		
@@ -245,7 +245,7 @@ public class ListaDobleEncadenada {
 		if(tamanio==0)
 			return lista;
 		
-		lista="null ->";
+		lista="cola -> ";
 		
 		while(aux!=cabeza){
 			
@@ -255,7 +255,7 @@ public class ListaDobleEncadenada {
 			
 		}
 		
-		lista+="null";
+		lista+=" cabeza";
 		
 		return lista;
 		
